@@ -1,0 +1,24 @@
+.IconBtn {
+  cursor: pointer;
+  position: relative;
+
+  .icon {
+    width: 25px;
+    height: 25px;
+    opacity: 0.6;
+  }
+  
+  .count {
+    background-color: var(--color-primary, #252dd0);
+    color: white;
+    font-size: 12px;
+    border-radius: 50%;
+    position: absolute;
+    top: -5px;
+    right: -7px;
+    width: 14px;
+    height: 14px;
+    transform: scale(.8);
+  }
+
+}
