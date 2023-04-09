@@ -1,0 +1,1 @@
+curl -X POST -F "image=@../imgs/sp.png" -F "prompts=我想知道这个配色的衣服为什么在澳大利亚可以卖？" 'http://127.0.0.1:8000/evaluate/'

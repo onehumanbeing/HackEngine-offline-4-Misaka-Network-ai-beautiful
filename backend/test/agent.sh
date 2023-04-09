@@ -1,0 +1,1 @@
+curl -X POST -H "Content-Type: application/json" -d '{"messages": [{"role": "user", "content": "a black and white checkered skirt hanging on a wall 这个英文是一段根据img生成的prompts, 请帮我1. 用中文为用户的图片进行评价，控制在30-50字之间。2. 帮我按顺序输出推荐和该服装搭配的衣服，按照 场景:{中文}, 推荐服装:{推荐1英文};{推荐2英文};{推荐3英文}。请注意我给你的是一张衣服的平面图，请忽略不符合逻辑的promps词比如位置信息。"}]}' 'https://agent.zsrtech.com/chat'

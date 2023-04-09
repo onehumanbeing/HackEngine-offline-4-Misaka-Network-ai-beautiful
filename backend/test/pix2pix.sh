@@ -1,0 +1,1 @@
+curl -X POST -F "image=@../imgs/jk_1.png" -F "prompt=outdoor" -F "negative_prompt=cryptopunk" -F "num_outputs=1" -F "num_inference_steps=100" -F "guidance_scale=7.5" -F "image_guidance_scale=1.5" -F "scheduler=K_EULER_ANCESTRAL" 'http://127.0.0.1:8000/pix2pix/'

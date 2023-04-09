@@ -1,0 +1,1 @@
+curl -X POST -F "image=@../imgs/example2.png" 'http://127.0.0.1:8000/img2text/'
